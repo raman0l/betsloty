@@ -8,7 +8,7 @@ import {
   Sec15Icon,
 } from "../helper/Icon";
 import Image from "next/image";
-import { heroData } from "../helper/Helper";
+import { heroData, phasesData } from "../helper/Helper";
 
 function Hero() {
   return (
@@ -29,16 +29,17 @@ function Hero() {
               />
             </div>
             <div className="flex lg:gap-4 md:gap-3 gap-2">
-              <button className="lg:p-[15px_40px] md:p-[10px_30px] p-[8px_25px] bg-[#C2BF28] text-sm md:text-base lg:text-lg font-medium rounded-[10px] text-[#2D2A4B] hover:text-white hover:bg-transparent border border-[#C2BF28] duration-500 ease-in-out">
+              <button className="lg:p-[15px_40px] md:p-[10px_30px] p-[8px_25px] bg-[#C2BF28] text-sm md:text-base lg:text-lg font-medium rounded-[10px] text-[#2D2A4B] hover:text-white hover:bg-transparent border border-[#C2BF28] duration-500 ease-in-out cursor-pointer">
                 SIGN UP
               </button>
-              <button className="lg:p-[15px_40px] md:p-[10px_30px] p-[8px_25px] hover:bg-[#C2BF28] text-sm md:text-base lg:text-lg font-medium rounded-[10px] hover:text-[#2D2A4B] text-white bg-transparent border border-[#C2BF28] duration-500 ease-in-out">
+              <button className="lg:p-[15px_40px] md:p-[10px_30px] p-[8px_25px] hover:bg-[#C2BF28] text-sm md:text-base lg:text-lg font-medium rounded-[10px] hover:text-[#2D2A4B] text-white bg-transparent border border-[#C2BF28] duration-500 ease-in-out cursor-pointer">
                 LOGIN
               </button>
             </div>
           </div>
+
           <div
-            className="bg-[url('/assets/png/bg-blue.png')] bg-no-repeat bg-contain py-[25px_30px] lg:px-[42px] md:px-[30px] px-[18px] max-w-[408px] mx-auto"
+            className="bg-[url('/assets/png/bg-blue.png')] py-[25px_30px] background-size-[100%_100%] lg:px-[42px] md:px-[35px] px-[20px] max-w-[408px] mx-auto"
             style={{ backgroundSize: "100% 100%" }}
           >
             <div className="flex flex-col lg:gap-5 md:gap-4 gap-3">
@@ -101,7 +102,7 @@ function Hero() {
                   name="vol"
                   min="0"
                   max="50"
-                  className="range-slider"
+                  className="accent-[#C2BF28]"
                 ></input>
                 <div>
                   <Image
@@ -137,15 +138,15 @@ function Hero() {
                 </div>
                 <div className="flex flex-col lg:gap-4 md:gap-3 gap-2 lg:mt-5 md:mt-4 mt-3">
                   <div className="flex gap-2">
-                    <button className="lg:p-[10px_25px] md:p-[8px_25px] p-[6px_17px] bg-[#C2BF28] text-sm md:text-base lg:text-lg font-medium rounded-[10px] text-[#2D2A4B] hover:text-white hover:bg-transparent border border-[#C2BF28] duration-500 ease-in-out text-nowrap w-full">
+                    <button className="lg:p-[10px_25px] md:p-[8px_25px] p-[6px_17px] bg-[#C2BF28] text-sm md:text-base lg:text-lg font-medium rounded-[10px] text-[#2D2A4B] hover:text-white hover:bg-transparent border border-[#C2BF28] duration-500 ease-in-out text-nowrap w-full cursor-pointer">
                       Buy on Uniswap
                     </button>
-                    <button className="lg:p-[10px_25px] md:p-[8px_20px] p-[6px_15px] hover:bg-[#C2BF28] text-sm md:text-base lg:text-lg font-medium rounded-[10px] hover:text-[#2D2A4B] text-white bg-transparent border border-[#C2BF28] duration-500 ease-in-out text-nowrap w-full">
+                    <button className="lg:p-[10px_25px] md:p-[8px_20px] p-[6px_15px] hover:bg-[#C2BF28] text-sm md:text-base lg:text-lg font-medium rounded-[10px] hover:text-[#2D2A4B] text-white bg-transparent border border-[#C2BF28] duration-500 ease-in-out text-nowrap w-full cursor-pointer">
                       View chart
                     </button>
                   </div>
                   <div className="flex flex-col lg:gap-3 gap-2">
-                    <button className="lg:p-[10px_55px] md:p-[8px_35px] p-[6px_25px] bg-[#C2BF28] text-sm md:text-base lg:text-lg font-medium rounded-[10px] text-[#2D2A4B] hover:text-white hover:bg-transparent border border-[#C2BF28] duration-500 ease-in-out lg:w-full">
+                    <button className="lg:p-[10px_55px] md:p-[8px_35px] p-[6px_25px] bg-[#C2BF28] text-sm md:text-base lg:text-lg font-medium rounded-[10px] text-[#2D2A4B] hover:text-white hover:bg-transparent border border-[#C2BF28] duration-500 ease-in-out lg:w-full cursor-pointer">
                       Connect wallet
                     </button>
                     <div>

@@ -6,10 +6,7 @@ import Image from "next/image";
 function Vision() {
   return (
     <>
-      <div
-        className="bg-[linear-gradient(180deg,#19172F_0%,rgba(19,17,38,0.00)_S100%)
-] xl:py-30 lg:py-20 md:py-15 py-10"
-      >
+      <div className="bg-[linear-gradient(180deg,#19172F_0%,rgba(19,17,38,0)_100%)] xl:py-30 lg:py-20 md:py-15 py-10">
         <div className="max-w-[1284px] xl:px-10 lg:px-8 md:px-6 px-4 mx-auto">
           <div className="flex flex-col lg:gap-5 md:gap-4 gap-3 xl:mb-15 lg:mb-12 md:mb-8 mb-6">
             <div className="flex flex-col gap-2">

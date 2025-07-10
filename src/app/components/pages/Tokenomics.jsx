@@ -7,7 +7,10 @@ import { tokenData } from "../helper/Helper";
 function Tokenomics() {
   return (
     <>
-      <div className="bg-[linear-gradient(180deg,#19172F_0%,rgba(19,17,38,0.00)_100%)] xl:py-[100px_120px] lg:py-[80px_100px] md:py-[50px_70px] py-[40px_50px]">
+      <div
+        className="bg-[linear-gradient(180deg, rgba(25,23,47,0.00)_0%,#19172F_100%)
+] xl:py-[100px_120px] lg:py-[80px_100px] md:py-[50px_70px] py-[40px_50px]"
+      >
         <div className="max-w-[1284px] xl:px-10 lg:px-8 md:px-6 px-4 mx-auto">
           <div className="flex flex-col lg:gap-5 md:gap-4 gap-3 xl:mb-15 lg:mb-12 md:mb-8 mb-6">
             <div className="flex flex-col gap-2">
@@ -38,15 +41,16 @@ function Tokenomics() {
                   "lg:!text-[31px] md:!text-2xl !text-xl font-bold leading-[130%]"
                 }
               />
+
               <div
-                className="bg-[url('/assets/png/bg-image-2.png')] bg-no-repeat md:max-w-[375px] py-[39px] px-[30px_20px]"
+                className="bg-[url('/assets/png/bg-image-3.png')] py-[39px] px-[30px_20px] max-w-[376px]"
                 style={{ backgroundSize: "100% 100%" }}
               >
                 <ul className="flex flex-col lg:gap-5 md:gap-4 gap-3">
                   {tokenData.map((item, index) => (
                     <li
                       key={index}
-                      className="text-[#FAFAFF] opacity-80 text-xs lg:text-sm xl:text-base font-normal leading-[150%]"
+                      className="text-[#FAFAFF] opacity-80 text-xs lg:text-sm xl:text-base font-normal leading-[160%]"
                     >
                       {item.title}
                     </li>

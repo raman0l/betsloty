@@ -30,10 +30,10 @@ function Navbar() {
               ))}
             </ul>
             <div className="flex gap-3">
-              <button className="rounded-[10px] lg:p-[10px_15px] md:p-[8px_12px] p-[6px_9px] bg-[#2D2A4B] text-xs lg:text-sm xl:text-base font-medium text-nowrap text-white hover:bg-[#C2BF28] hover:text-black duration-500 ease-in-out">
+              <button className="rounded-[10px] lg:p-[10px_15px] md:p-[8px_12px] p-[6px_9px] bg-[#2D2A4B] text-xs lg:text-sm xl:text-base font-medium text-nowrap text-white hover:bg-[#C2BF28] hover:text-black duration-500 ease-in-out cursor-pointer">
                 LOGIN
               </button>
-              <button className="rounded-[10px] lg:p-[10px_15px] md:p-[8px_12px] p-[6px_9px] hover:bg-[#2D2A4B] text-xs lg:text-sm xl:text-base font-medium text-nowrap hover:text-white bg-[#C2BF28] text-black duration-500 ease-in-out">
+              <button className="rounded-[10px] lg:p-[10px_15px] md:p-[8px_12px] p-[6px_9px] hover:bg-[#2D2A4B] text-xs lg:text-sm xl:text-base font-medium text-nowrap hover:text-white bg-[#C2BF28] text-black duration-500 ease-in-out cursor-pointer">
                 SIGN UP
               </button>
             </div>
